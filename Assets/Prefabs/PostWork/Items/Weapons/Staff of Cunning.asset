@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a87c7a7f55d1677438e2c069807d71cf, type: 3}
+  m_Name: Staff of Cunning
+  m_EditorClassIdentifier: 
+  itemName: Staff of Cunning
+  itemImage: {fileID: 21300000, guid: ed0a32aeeb2bf0f40ad22e944d930018, type: 3}
+  itemID: 7001
+  itemValue: 25
+  itemDropChance: 15
+  equipSlotID: 6
+  itemRarity: 5
+  strength: 0
+  intellect: 25
+  agility: 0
+  stamina: 10
+  haste: 15
+  spirit: 5
+  criticalStrike: 5
+  model: {fileID: 6036353953621197999, guid: f93bbbaedc7cd2f42ac7f52b98c773fc, type: 3}
+  attackPower: 0
+  spellPower: 25
+  twoHanded: 1

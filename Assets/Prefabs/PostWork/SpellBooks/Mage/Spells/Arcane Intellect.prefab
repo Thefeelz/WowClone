@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7367252306718465528
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1755748504857925537}
+  - component: {fileID: 8190708733741970338}
+  m_Layer: 0
+  m_Name: Arcane Intellect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1755748504857925537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7367252306718465528}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 190.39995, y: 229.6455, z: 0.036392212}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8190708733741970338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7367252306718465528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d19c8313f940ae4caad22a9b9d4525c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilityName: Arcane Intellect
+  abilityID: 6
+  abilityCooldownTime: 0
+  currentCooldownTime: 0
+  abilityImage: {fileID: 21300000, guid: fb9bcc3943d1ca94497fd61e5e8c2fde, type: 3}
+  abilityRange: 30
+  abilityCastTime: 0
+  abilityBuff: {fileID: 7438813658510024281, guid: c1ba7d16ad4f04447b4e8e8a8a7f3766, type: 3}
+  isProc: 0
+  guaranteedProc: 0
+  percentChanceToProc: 0
+  procOnNormalAbility: 0
+  procOnCriticalAbility: 0
+  abilityManaCost: 10
+  buffMaxDuration: 600
+  buffCurrentDuration: -0.0056648
+  staminaBuff: 0
+  staminaPercentageBuff: 0
+  intellectBuff: 1
+  intellectPercentageBuff: 5
+  spiritBuff: 0
+  spiritPercentageBuff: 0
+  hasteBuff: 0
+  hastePercentageBuff: 0
+  criticalStrikeBuff: 1
+  criticalStrikePercentageBuff: 10

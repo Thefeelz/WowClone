@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3915016203507152129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 465779327705100716}
+  - component: {fileID: 4225253579983711958}
+  m_Layer: 0
+  m_Name: Heating Up
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &465779327705100716
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3915016203507152129}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1197.97, y: 361.82, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4225253579983711958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3915016203507152129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5074154993983184993d6288ea7fd35b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buffName: Heating Up
+  buffImage: {fileID: 0}
+  buffID: 0
+  buffMaxDuration: 10
+  currentBuffDuration: 0.966312
+  stackable: 0
+  maxNumberOfStacks: 1
+  currentNumberOfStacks: 0
+  staminaBuff: 0
+  staminaPercentageBuff: 0
+  intellectBuff: 0
+  intellectPercentageBuff: 0
+  spiritBuff: 0
+  spiritPercentageBuff: 0
+  hasteBuff: 0
+  hastePercentageBuff: 0
+  criticalStrikeBuff: 0
+  criticalStrikePercentageBuff: 0
+  procImage: {fileID: 21300000, guid: 0d852f5493cecf94a90183f3f83ce947, type: 3}
+  abilityIdToEffect: 2
+  spellCastReduction: 1
+  instantCast: 1
+  incrimentedReducedCast: 0
+  amountToReduceCastPerStack: 0.75
+  cooldownReduction: 1
+  totalReset: 1
+  incrimentedCooldownReduction: 0
+  amountToReduceCooldownPerStack: 5

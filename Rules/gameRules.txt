@@ -1,0 +1,20 @@
+[0] Helmet (ID = 1***)
+[1] Chest (ID = 2***)
+[2] Shoulders (ID = 3***)
+[3] Gloves (ID = 4***)
+[4] Legs (ID = 5***)
+[5] Feet (ID = 6***)
+[6] Weapon (ID = 7***)
+[7] Shield (ID = 8***)
+[8] Ring (ID = 9***)
+[9] Ring (ID = 10***)
+[10] Necklace (ID = 11***)
+[11] Trinket (ID = 12***)
+[12] Trinket (ID = 12***)
+
+Stats
+Stamina
+
+Intellect, Agility, Strength
+
+Haste, Critical Strike, Spirit
